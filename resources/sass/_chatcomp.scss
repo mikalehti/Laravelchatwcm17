@@ -1,0 +1,15 @@
+/*STYLING FOR THE DISCLAIMER TEXT ON THE CHAT VIEW*/
+.disclaimer{
+    i{
+        color: red;
+        font-size: 13px;
+    }
+}
+#test{
+    background-color: #eee;
+}
+
+//"header" color for the chat-box and he "online users" box in the chat view.
+#chat-room-header{
+    background-color: $primary-bg;
+}

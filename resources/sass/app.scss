@@ -1,0 +1,24 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+//Individual styles for each of the vue components
+@import "chatcomp";
+@import "chatformcomp";
+@import "chatmessagecomp";
+@import "usercomp";
+@import "messagecomp";
+@import "subsides-view";
+
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

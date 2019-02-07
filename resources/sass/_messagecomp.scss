@@ -1,0 +1,79 @@
+    .user {
+        font-weight: 800;
+    }
+    .body {
+        margin-bottom: 0;
+        white-space: pre-wrap;
+    }
+    /*STYLING FOR ALL MESSAGES EXCEPT YOUR OWN*/
+    .message {
+
+        position: relative;
+        background-color:lightgreen;
+        width: 80%;
+        max-width: 85%;
+        float:right;
+        padding: 10px;
+        margin-top: 7px;
+        margin-right: .6em;
+        border-radius: .4em;
+        // border-radius: 15px 15px 0px 15px;
+    }
+    .message:after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 24px solid transparent;
+        border-left-color: lightgreen;
+        border-right: 0;
+        border-top: 0;
+        padding-right: 0.35em;
+        margin-top: -1px;
+        margin-right: -24px;
+    }
+    //COLOR ON THE NAME OF OTHER CHAT PARTICIPANTS
+    #username-id{
+        color: black;
+    }
+    /*STYLING FOR SELF MESSAGE*/
+    .self {
+        position: relative;
+        background-color:$primary-bg;
+        width: 80%;
+        max-width: 85%;
+        float:left;
+        padding: 10px;
+        margin-left: .35em;
+        margin-top: 7px;
+        // border-radius: 15px 15px 15px 0px;
+        border-radius: .4em;
+        #username-id{
+            color: #9E0000;
+        }
+    }
+    .self:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 24px solid transparent;
+        border-right-color: $primary-bg;
+        border-left: 0;
+        border-top: 0;
+        margin-top: -1px;
+        margin-left: -24px;
+    }
+
+    /*STYLING FOR CREATED AT*/
+    .createdat{
+        font-size: 10px;
+        font-weight: bold;
+        color: black;
+        float: right;
+        margin-bottom: -10px;
+    }

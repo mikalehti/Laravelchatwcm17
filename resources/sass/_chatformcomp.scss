@@ -1,0 +1,59 @@
+
+    .form {
+        padding: 8px;
+    }
+    .form-input {
+        width: 100%;
+        border: 1px solid #d3e0e9;
+        padding: 5px 10px;
+        outline: none;
+    }
+    .notice {
+        color: #aaa
+    }
+
+    /*ALL STYLES BELOW ARE EMOJI RELATED STYLES*/
+    .emoji-mart {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    }
+
+    .emoji-picker {
+    position: fixed;
+    z-index: 1;
+    font-family: Montserrat;
+    border: 1px solid #ccc;
+    width: 25rem;
+    height: 10rem;
+    overflow: scroll;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 1px 1px 8px #c7dbe6;
+    }
+
+    .emoji-picker h5 {
+    margin-bottom: 0;
+    color: #b1b1b1;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: default;
+    }
+
+    .emoji-picker .emojis:after {
+    content: "";
+    flex: auto;
+    }
+
+    .emoji-picker .emojis span {
+    padding: 0.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+    .emoji-picker .emojis span:hover {
+    background: #ececec;
+    cursor: pointer;
+    }
